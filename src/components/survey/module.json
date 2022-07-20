@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_survey_modules",
+  "info": {
+    "displayName": "Module"
+  },
+  "options": {},
+  "attributes": {
+    "Questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "survey.question"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

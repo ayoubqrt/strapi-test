@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_survey_questions",
+  "info": {
+    "displayName": "Question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "needToAnswerToUnlockNextModule": {
+      "type": "boolean",
+      "default": false
+    },
+    "response": {
+      "type": "string"
+    },
+    "fieldType": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "date"
+      ]
+    }
+  }
+}

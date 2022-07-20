@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_survey_parties",
+  "info": {
+    "displayName": "Partie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "modules": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::module.module"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

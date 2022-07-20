@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_survey_upload_requests",
+  "info": {
+    "displayName": "UploadRequest"
+  },
+  "options": {},
+  "attributes": {
+    "File": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isUploaded": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "installation_cabinets",
+  "info": {
+    "singularName": "installation-cabinet",
+    "pluralName": "installation-cabinets",
+    "displayName": "InstallationCabinet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Parties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "survey.partie"
+    },
+    "data": {
+      "type": "datetime"
+    }
+  }
+}
